@@ -281,7 +281,7 @@ Contoh respon:
 Contoh respon:
 ```json
 {
-    "code" : 201,
+    "code" : 200,
     "data" : [
         {
             "id" : 4,
