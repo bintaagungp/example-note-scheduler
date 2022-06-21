@@ -208,7 +208,7 @@ Contoh respon:
 
 Filter data menggunakan judul schedule, misal:
 
-judul LIKE "%Fitness%"
+id = 1
 
 Contoh respon:
 
