@@ -206,10 +206,6 @@ Contoh respon:
 #### 4. **Pencarian data _Schedule_ berdasarkan ID _Schedule_**
 [Back to 🔝](#note-scheduler-😃)
 
-Filter data menggunakan judul schedule, misal:
-
-id = 1
-
 Contoh respon:
 
 ```json
