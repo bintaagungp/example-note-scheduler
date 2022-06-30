@@ -247,21 +247,19 @@ Contoh respon:
 ```json
 {
     "code" : 201,
-    "data" : [
-        {
-            "id" : 4,
-            "judul" : "Schedule Baru",
-            "start_at" : "2022-06-13T00:00:00Z07:00",
-            "end_at" : "2022-06-13T23:59:59Z07:00",
-            "activities": [
-                {
-                    "id" : 10,
-                    "schedule_id" : 4,
-                    "activity" : "Laboris commodo culpa culpa laboris"
-                }
-            ]
-        }
-    ]
+    "data" : {
+          "id" : 4,
+          "judul" : "Schedule Baru",
+          "start_at" : "2022-06-13T00:00:00Z07:00",
+          "end_at" : "2022-06-13T23:59:59Z07:00",
+          "activities": [
+              {
+                  "id" : 10,
+                  "schedule_id" : 4,
+                  "activity" : "Laboris commodo culpa culpa laboris"
+              }
+          ]
+     }
 }
 ```
 
@@ -278,21 +276,20 @@ Contoh respon:
 ```json
 {
     "code" : 200,
-    "data" : [
-        {
-            "id" : 4,
-            "judul" : "Schedule Baru yang sudah di update",
-            "start_at" : "2022-06-13T00:00:00Z07:00",
-            "end_at" : "2022-06-13T23:59:59Z07:00",
-            "activities": [
-                {
-                    "id" : 10,
-                    "schedule_id" : 4,
-                    "activity" : "Laboris commodo culpa culpa laboris"
-                }
-            ]
-        }
-    ]
+    "data" : {
+         "id" : 4,
+         "judul" : "Schedule Baru yang sudah di update",
+         "start_at" : "2022-06-13T00:00:00Z07:00",
+         "end_at" : "2022-06-13T23:59:59Z07:00",
+         "activities": [
+              {
+                  "id" : 10,
+                  "schedule_id" : 4,
+                  "activity" : "Laboris commodo culpa culpa laboris"
+              }
+         ]
+     }
+    
 }
 ```
 
@@ -309,7 +306,20 @@ Contoh respon:
 
 ```json
 {
-    "code" : 200
+    "code" : 200,
+    "data" : {
+         "id" : 4,
+         "judul" : "Schedule Baru yang sudah di update",
+         "start_at" : "2022-06-13T00:00:00Z07:00",
+         "end_at" : "2022-06-13T23:59:59Z07:00",
+         "activities": [
+              {
+                  "id" : 10,
+                  "schedule_id" : 4,
+                  "activity" : "Laboris commodo culpa culpa laboris"
+              }
+         ]
+     }
 }
 ```
 
@@ -379,8 +389,7 @@ Contoh respon:
 ```json
 {
     "code" : 201,
-    "data" : [
-        {
+    "data" : {
             "id" : 1,
             "judul" : "Fitness",
             "start_at" : "2022-06-01T00:00:00Z07:00",
@@ -403,7 +412,6 @@ Contoh respon:
                 }
             ]
         }
-    ]
 }
 ```
 
@@ -421,8 +429,7 @@ Contoh respon:
 ```json
 {
     "code" : 200,
-    "data" : [
-        {
+    "data" : {
             "id" : 1,
             "judul" : "Fitness",
             "start_at" : "2022-06-01T00:00:00Z07:00",
@@ -445,7 +452,6 @@ Contoh respon:
                 }
             ]
         }
-    ]
 }
 ```
 
@@ -463,8 +469,7 @@ Contoh respon:
 ```json
 {
     "code" : 200,
-    "data" : [
-        {
+    "data" : {
             "id" : 1,
             "judul" : "Fitness",
             "start_at" : "2022-06-01T00:00:00Z07:00",
@@ -482,7 +487,6 @@ Contoh respon:
                 }
             ]
         }
-    ]
 }
 ```
 
